@@ -148,7 +148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 437010556}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 33.4, y: 2.0802538, z: -0.375097}
+  m_LocalPosition: {x: 33.4, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myPipePrefab: {fileID: 1650905805505138627, guid: 665466f241a16d04ea6ccc6067a2ab80, type: 3}
-  spawnInterval: 10
+  spawnDelay: 3
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
