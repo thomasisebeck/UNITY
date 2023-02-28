@@ -17,6 +17,9 @@ public class PipeScript : MonoBehaviour
         transform.position = transform.position + (Vector3.left * moveSpeed) * Time.deltaTime;
 
         if (transform.position.x < -40)
+        {
+            Debug.Log("Pipe being destroyed");
             Destroy(gameObject);
+        }
     }
 }
