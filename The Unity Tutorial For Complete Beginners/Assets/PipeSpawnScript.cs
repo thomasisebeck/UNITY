@@ -5,9 +5,9 @@ using UnityEngine;
 public class PipeSpawnScript : MonoBehaviour
 {
     public GameObject pipe;
-    public float timer = 0;
 
     public float spawnRate;
+    private float timer;
     public float maxOffset;
 
     private void spawnPipe()
@@ -20,7 +20,7 @@ public class PipeSpawnScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        timer = spawnRate;
     }
 
     // Update is called once per frame
